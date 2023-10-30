@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".instructionsScreen">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="0.7"
+        android:text="Information" />
+
+    <TextView
+        android:id="@+id/informational"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="Members of the LGBTQ+ community generally face a great fear of “coming out” to their loved ones. Out of fear of discrimination, and a lack of acceptance, LGBTQ youth are significantly more likely to experience depression, PTSD, substance abuse, and even suicide. There is also a lack of LGBTQ-friendly sex education, so they are at a much higher risk of STDs.
+
+They also face discrimination when accessing healthcare. They have to worry about being mistreated or even outright denied service. It is not uncommon for same-sex couples to be denied, or for facilities to turn away those who disclose their sexual orientation. Everyone should be able to have equal access to healthcare, as this should be a basic unquestioned human right.
+" />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="0.3"
+        android:text="link" />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:text="link" />
+
+    <TextView
+        android:id="@+id/link3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:text="link" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:text="Home" />
+</LinearLayout>
